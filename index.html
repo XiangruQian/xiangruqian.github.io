@@ -190,6 +190,36 @@
         </li>
       
         
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            About
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            Tags
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            Categories
+          </a>
+        </li>
+      
+        
         <li class="menu-item menu-item-archives">
           <a href="/archives/" rel="section">
             
@@ -232,12 +262,12 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/11/08/test/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/11/09/HelloWorld/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Xiangru Qian">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/images/avatar.png">
     </span>
 
     <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
@@ -251,7 +281,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/11/08/test/" itemprop="url">My First Blog</a></h1>
+                <a class="post-title-link" href="/2018/11/09/HelloWorld/" itemprop="url">Hello World</a></h1>
         
 
         <div class="post-meta">
@@ -263,8 +293,8 @@
               
                 <span class="post-meta-item-text">Posted on</span>
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-11-08T18:00:23-05:00">
-                2018-11-08
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-11-09T01:37:25-05:00">
+                2018-11-09
               </time>
             
 
@@ -285,151 +315,36 @@
           
 
           
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h2 id="Some-commands"><a href="#Some-commands" class="headerlink" title="Some commands"></a>Some commands</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo new draft b</span><br><span class="line">hexo server --draft</span><br><span class="line">hexo post some_draft</span><br></pre></td></tr></table></figure>
-<ol>
-<li>posts</li>
-<li>draft</li>
-<li>normal pages - not showing on home, only accessed by url</li>
-</ol>
-<p>hexo new page normal</p>
-<h2 id="TAML-Ain’t-Markup-Language"><a href="#TAML-Ain’t-Markup-Language" class="headerlink" title="TAML Ain’t Markup Language"></a>TAML Ain’t Markup Language</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"># comment</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br></pre></td><td class="code"><pre><span class="line">person:</span><br><span class="line">	name: &quot;paul&quot;</span><br><span class="line">	age: 23</span><br><span class="line">	gpa: 3.5</span><br><span class="line">	fav_num: 4</span><br><span class="line">	male: true</span><br><span class="line">	birthday: 1995-11-22</span><br><span class="line">	hobbies:</span><br><span class="line">		- hiking</span><br><span class="line">		- movies</span><br><span class="line">		- riding bike</span><br><span class="line">	movies: [&quot;Dark Knight&quot;, &quot;Good Will Hunting&quot;]</span><br><span class="line">	friends: </span><br><span class="line">		- name: &quot;Stephen&quot;</span><br><span class="line">		  age: 22</span><br><span class="line">		- &#123;name: &quot;Adam&quot;, age: 22&#125;</span><br><span class="line">		- </span><br><span class="line">		  name: &quot;Joe&quot;</span><br><span class="line">		  age: 23</span><br><span class="line">	description: &gt;</span><br><span class="line">		askdj asklkj aksdj lasd.</span><br><span class="line">		ashkdjah alkjld ak lkasd,</span><br><span class="line">		aksldkanl mamn, s dql lq.</span><br><span class="line">		asda asd.</span><br><span class="line">	signiture: |</span><br><span class="line">		Mike</span><br><span class="line">		  Giraffe Academy</span><br><span class="line">		email - a@b.c</span><br><span class="line">	# anchor</span><br><span class="line">	name: &amp;name Mike</span><br><span class="line">	id: *name</span><br><span class="line">	</span><br><span class="line">	base: &amp;base</span><br><span class="line">		var1: value1</span><br><span class="line"></span><br><span class="line">	foo:</span><br><span class="line">		&lt;&lt;: *base # var1: value1</span><br><span class="line">		var2: value2</span><br><span class="line">	</span><br><span class="line">	# forcing data type converting</span><br><span class="line">	age: !!float 23 # 23.0</span><br><span class="line">	gpa: !!str 3.5 # &quot;3.5&quot;</span><br></pre></td></tr></table></figure>
-<h2 id="YAML"><a href="#YAML" class="headerlink" title="YAML"></a>YAML</h2><p>Array<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">fruit:</span><br><span class="line">- orange</span><br><span class="line">- apple</span><br></pre></td></tr></table></figure></p>
-<p>Dictionary/map<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Banana:</span><br><span class="line">    Calories: 105</span><br><span class="line">    Fat: 0.4 g</span><br><span class="line">    Carbs: 27 g</span><br></pre></td></tr></table></figure></p>
-<h2 id="scaffolds"><a href="#scaffolds" class="headerlink" title="scaffolds"></a>scaffolds</h2><p>Default headers of draft, page and post.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">title: &#123;&#123;title&#125;&#125;</span><br><span class="line">data: &#123;&#123;date&#125;&#125;</span><br><span class="line">layout: giraffe</span><br></pre></td></tr></table></figure></p>
-<h2 id="tags-and-categories"><a href="#tags-and-categories" class="headerlink" title="tags and categories"></a>tags and categories</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">tags: [tag1, tag2, tag3]</span><br><span class="line">categories:</span><br><span class="line">  - [cat1, cat1.1(subcategory)]</span><br><span class="line">  - [cat2]</span><br><span class="line">  - [cat3]</span><br></pre></td></tr></table></figure>
-<h2 id="tag-plugins"><a href="#tag-plugins" class="headerlink" title="tag plugins"></a>tag plugins</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% codeblock %&#125;</span><br></pre></td></tr></table></figure>
-<p>and</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% endcodeblock %&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> s = <span class="string">'hello'</span>;</span><br><span class="line">alert(<span class="string">'hello'</span>);</span><br></pre></td></tr></table></figure>
-<div class="video-container"><iframe src="//www.youtube.com/embed/hY7m5jjJ9mM" frameborder="0" allowfullscreen></iframe></div>
-<h2 id="Asset-folder"><a href="#Asset-folder" class="headerlink" title="Asset folder"></a>Asset folder</h2><p>In the .yml file, set<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">post_asset_folder = true</span><br></pre></td></tr></table></figure></p>
-<p>Drag images into the asset folder, then in the md<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% asset_img hexo.jpg Hexo Logo%&#125;</span><br><span class="line">&#123;% asset_link hexo.jpg %&#125;</span><br><span class="line">&#123;% asset_path hexo.jpg %&#125;</span><br></pre></td></tr></table></figure></p>
-<h2 id="Theme"><a href="#Theme" class="headerlink" title="Theme"></a>Theme</h2><ol>
-<li>Find a theme at <code>hexo.io/themes</code> </li>
-<li>Click on the name of the theme and go to its github page</li>
-<li>Clone the repo into themes folder</li>
-<li>Modify <code>_config.yml</code>, type <code>theme: some_theme</code></li>
-<li>Restart server</li>
-</ol>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/11/08/hello-world/">
-
-    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Xiangru Qian">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Unnamed">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
+            <div class="post-wordcount">
+              
                 
-                <a class="post-title-link" href="/2018/11/08/hello-world/" itemprop="url">Hello World</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Words count in article&#58;</span>
+                
+                <span title="Words count in article">
+                  214
+                </span>
               
-                <span class="post-meta-item-text">Posted on</span>
+
               
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-11-08T16:46:49-05:00">
-                2018-11-08
-              </time>
-            
+                <span class="post-meta-divider">|</span>
+              
 
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Reading time &asymp;</span>
+                
+                <span title="Reading time">
+                  1
+                </span>
+              
+            </div>
           
 
           
@@ -449,15 +364,9 @@
       
         
           
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+            <p>The first blog. Why not start with some quotes of Sartre.</p>
+<p>Man is all the time outside of himself: it is in projecting and losing himself beyond himself that he makes man to exist; and, on the other hand, it is by pursuing transcendent aims that he himself is able to exist. Since man is thus self-surpassing, and can grasp objects only in relation to his self-surpassing, he is himself the heart and center of his transcendence. There is no other universe except the human universe, the universe of human subjectivity. This relation of transcendence as constitutive of man (not in the sense that God is transcendent, but in the sense of self-surpassing) with subjectivity (in such a sense that man is not shut up in himself but forever present in a human universe) – it is this that we call existential humanism. This is humanism, because we remind man that there is no legislator but himself; that he himself, thus abandoned, must decide for himself; also because we show that it is not by turning back upon himself, but always by seeking, beyond himself, an aim which is one of liberation or of some particular realisation, that man can realize himself as truly human.</p>
+<p>– Jean-Paul Sartre, “Existentialism is a Humanism”</p>
 
           
         
@@ -528,6 +437,8 @@
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
+              <img class="site-author-image" itemprop="image" src="/images/avatar.png" alt="Xiangru Qian">
+            
               <p class="site-author-name" itemprop="name">Xiangru Qian</p>
               <p class="site-description motion-element" itemprop="description">Like all dreamers, I mistook disenchantment for truth</p>
           </div>
@@ -539,7 +450,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">1</span>
                   <span class="site-state-item-name">posts</span>
                 </a>
               </div>
@@ -548,20 +459,21 @@
             
 
             
-              
-              
-              <div class="site-state-item site-state-tags">
-                
-                  <span class="site-state-item-count">3</span>
-                  <span class="site-state-item-name">tags</span>
-                
-              </div>
-            
 
           </nav>
 
           
 
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="mailto:xiangru.qian@gmail.com" target="_blank" title="E-Mail">
+                      
+                        <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  </span>
+                
+            </div>
           
 
           
